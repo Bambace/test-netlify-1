@@ -7,12 +7,12 @@ export default function Detail({children, heroes}) {
 
     //recuperare l'id dell'eroe dalla url
     const {id} = useParams();  //useParams per leggere l'id dalla url, questo e una stringa
-  console.log(heroes)
+
     //trovare gli atri dati dell'eroe (heroes,id), questo e un number
 
   //  const hero = heroes.find(h=>h.id.toString()===id.toString());
     const hero = heroes? heroes.find(h => h.id.toString() === id.toString()):{};
-  console.log(hero)
+  
 
     //const per navigare tra pagine di react-router
     const navigate = useNavigate()
