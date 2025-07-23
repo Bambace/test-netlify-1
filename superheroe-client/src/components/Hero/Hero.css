@@ -1,0 +1,23 @@
+.card-heroe{
+    display: flex;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.light{
+    background-color: goldenrod;
+    color: darkblue;
+
+}
+
+.dark{
+    background-color: darkblue;
+    color: goldenrod;
+}
+
